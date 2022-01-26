@@ -1,0 +1,88 @@
+@import "~antd/dist/antd.less";
+
+#root .page {
+  min-height: 100vh;
+}
+
+.wrap .index_nav {
+  margin-top: 10px;
+}
+
+img {
+width:100%;
+}
+
+.topic_tag{
+  margin: 0 5px;
+}
+// < 576px
+.wrap {
+  margin: 0 5px;
+}
+#footer {
+    padding:24px 0;
+}
+.logo {
+    margin:0;
+    text-align: center;
+}
+#header {
+    padding:0;
+}
+
+.wrap .topics_list {
+  background-color: #fff;
+  padding: 0 10px;
+}
+#topic .ant-card {
+  margin-top: 10px;
+} 
+
+.user_page .ant-card {
+  margin-top: 10px;
+} 
+
+.wrap .index-pagination {
+  border-top:1px solid #f0f0f0;
+  padding:10px 5px;
+  background: #fff;
+  display: flex;
+}
+
+// ≥ 768px
+@media all and(min-width:768px) {
+  .wrap {
+    margin: 0 15px;
+  }
+  .wrap .topics_list {
+    background-color: #fff;
+    padding: 0 20px;
+  }
+}
+
+//  ≥ 992px
+@media all and(min-width:992px) {
+  .wrap {
+    margin: 0 20px;
+  }
+}
+
+// ≥ 1200px
+@media all and(min-width:1200px) {
+  .wrap {
+    margin: 0 auto;
+    width:980px;
+  }
+  .wrap .topics_list {
+    background-color: #fff;
+    padding: 0 30px;
+  }
+}
+
+// ≥ 1600px
+@media all and(min-width: 1600px) {
+  .wrap {
+    margin: 0 auto;
+    width:1200px
+  }
+}
